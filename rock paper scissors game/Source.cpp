@@ -85,7 +85,7 @@ string cpuInput(){
 void  logic(const string& userChoice, const string& cpuChoice) {
 	//user logic
 	cout << "YOU CHOSE :" << userChoice << endl;
-	if (userChoice != "ROCK" && userChoice != "PAPER" && userChoice == "SCISSORS"){
+	if (userChoice != "ROCK" && userChoice != "PAPER" && userChoice != "SCISSORS"){
 		cout << "USER Invalid choice." << endl;
 	}
 	cout << "CPU CHOSE :" << cpuChoice << endl;
